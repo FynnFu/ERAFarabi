@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "ERAFarabi",
+  "version": "1.0",
+  "description": "Это частное расширение для проверки функций.",
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "icon.png"
+  },
+  "permissions": [
+    "storage",
+    "system.display"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "48": "icon.png"
+  }
+}
